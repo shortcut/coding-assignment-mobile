@@ -13,7 +13,7 @@
 		B9E0ECF627A7DC22004E8A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E0ECF427A7DC22004E8A5D /* Main.storyboard */; };
 		B9E0ECF827A7DC23004E8A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E0ECF727A7DC23004E8A5D /* Assets.xcassets */; };
 		B9E0ECFB27A7DC23004E8A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E0ECF927A7DC23004E8A5D /* LaunchScreen.storyboard */; };
-		B9E0ED0627A7DC23004E8A5D /* github_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0ED0527A7DC23004E8A5D /* github_demoTests.swift */; };
+		B9E0ED0627A7DC23004E8A5D /* API_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0ED0527A7DC23004E8A5D /* API_Tests.swift */; };
 		B9E0ED1027A7DC23004E8A5D /* github_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0ED0F27A7DC23004E8A5D /* github_demoUITests.swift */; };
 		B9E0ED1227A7DC23004E8A5D /* github_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0ED1127A7DC23004E8A5D /* github_demoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		B9E0ECFA27A7DC23004E8A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9E0ECFC27A7DC23004E8A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E0ED0127A7DC23004E8A5D /* github-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E0ED0527A7DC23004E8A5D /* github_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_demoTests.swift; sourceTree = "<group>"; };
+		B9E0ED0527A7DC23004E8A5D /* API_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Tests.swift; sourceTree = "<group>"; };
 		B9E0ED0B27A7DC23004E8A5D /* github-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E0ED0F27A7DC23004E8A5D /* github_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_demoUITests.swift; sourceTree = "<group>"; };
 		B9E0ED1127A7DC23004E8A5D /* github_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		B9E0ED0427A7DC23004E8A5D /* github-demoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9E0ED0527A7DC23004E8A5D /* github_demoTests.swift */,
+				B9E0ED0527A7DC23004E8A5D /* API_Tests.swift */,
 			);
 			path = "github-demoTests";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E0ED0627A7DC23004E8A5D /* github_demoTests.swift in Sources */,
+				B9E0ED0627A7DC23004E8A5D /* API_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
